@@ -30,10 +30,8 @@ Aqui vai um pouco mais de detalhe sobre o aprendizado em cada um:
 
 [Link GitHub](https://github.com/future4code/Therge-Souza)
 
->
-> ```
-> 
-> git clone https://github.com/future4code/Therge-Souza
-> 
-> ```
 
+
+```
+> git clone https://github.com/future4code/Therge-Souza
+```
