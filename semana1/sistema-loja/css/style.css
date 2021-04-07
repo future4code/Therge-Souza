@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+* {
+    margin: 0px;
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+#name {
+    text-align: center;
+    background: cornflowerblue;
+    padding: 30px;
+    font-family: 'Bangers', cursive;
+}
+
+#name p {
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+}
+
+#menu {
+    text-align: center;
+    background: tomato;
+}
+
+#menu>a {
+    padding: 40px;
+}
+
+.main {
+    text-align: center;
+    padding: 30px 30px 30px 30px;
+}
+
+#table {
+    text-align: center;
+    margin: 2% auto;
+}
+
+.footer {
+    text-align: center;
+    background: cornflowerblue;
+}
+
+.footer img {
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+form input {
+    text-align: center;
+}
+
+form label {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-add {
+    margin: 20px;
+}
+
+button {
+    border-radius: 100px;
+}
+
+button:hover {
+    background: coral;
+    color: white;
+    border: 0px;
+}
