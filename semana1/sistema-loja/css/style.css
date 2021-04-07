@@ -82,3 +82,21 @@ button:hover {
     color: white;
     border: 0px;
 }
+
+.quantidade {
+    display: inline-flex;
+    padding: 10px;
+}
+
+table {
+    border: 1px solid gray;
+}
+
+table th {
+    padding: 10px;
+}
+
+#tabela-historico {
+    text-align: center;
+    margin: 0 auto;
+}
