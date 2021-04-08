@@ -23,79 +23,43 @@
         <a href="historicovendas.html">Histórico de vendas</a>
     </div>
     <div class="main" id="vendas">
+        <h2>Vendas</h2>
         <form action="" id="form-vendas">
 
-            <div class="lavar">
-                <p>Máquina de lavar</p>
-                <div class="quantidade">
-                    <label for="lavar">Quantidade: </label>
-                    <select name="lavar" id="lavar">
-                        <option value="um">1</option>
-                        <option value="dois">2</option>
-                        <option value="três">3</option>
-                    </select>
-                </div>
-            </div>
+            <label for="vendedor">Vendedor:</label>
+            <input type="text" name="vendedor" id="vendedor" placeholder="Nome do vendedor">
 
-            <div class="microondas">
-                <p>Micro-ondas</p>
-                <div class="quantidade">
-                    <label for="microondas">Quantidade: </label>
-                    <select name="microondas" id="microondas">
-                        <option value="um">1</option>
-                        <option value="dois">2</option>
-                        <option value="tres">3</option>
-                        <option value="quatro">4</option>
-                        <option value="cinco">5</option>
-                        <option value="seis">6</option>
-                        <option value="sete">7</option>
-                        <option value="oito">8</option>
-                        <option value="nove">9</option>
-                        <option value="dez">10</option>
-                </select>
-                </div>
-            </div>
+            <label for="hora">Horário da venda:</label>
+            <input type="text" name="hora" id="hora" placeholder="horário da venda">
 
-            <div class="refrigerador">
-                <p>Refrigerador</p>
-                <div class="quantidade">
-                    <label for="refrigerador">Quantidade: </label>
-                    <select name="refrigerador" id="refrigerador">
-                        <option value="um">1</option>
-                        <option value="dois">2</option>
-                        <option value="tres">3</option>
-                        <option value="quatro">4</option>
-                        <option value="cinco">5</option>
-                </select>
-                </div>
-            </div>
+            <label for="lavar">Máquina de lavar:</label>
+            <input type="number" name="lavar" id="lavar" placeholder="quantidade">
 
-            <p>Fogão 5 bocas</p>
-            <div class="quantidade">
-                <label for="fogao">Quantidade: </label>
-                <select name="fogao" id="fogao">
-                    <option value="um">1</option>
-                    <option value="dois">2</option>
-                    <option value="tres">3</option>
-                    <option value="quatro">4</option>
-                    <option value="cinco">5</option>
-                    <option value="seis">6</option>
-                    <option value="sete">7</option>
-                </select>
-            </div>
+            <label for="microondas">Micro-ondas:</label>
+            <input type="number" name="microondas" id="microondas" placeholder="quantidade">
 
-            <div class="coifa">
-                <p>Coifa de parde</p>
-                <div class="quantidade">
-                    <label for="coifa">Quantidade: </label>
-                    <select name="coifa" id="coifa">
-                        <option value="um">1</option>
-                        <option value="dois">2</option>
-                        <option value="tres">3</option>
-                        <option value="quatro">4</option>
-                </select>
-                </div>
-            </div>
+            <label for="refrigerador">Refrigerador 03 portas:</label>
+            <input type="number" name="refrigerador" id="refrigerador" placeholder="quantidade">
+
+            <label for="fogao">Fogão 5 bocas:</label>
+            <input type="number" name="fogao" id="fogao" placeholder="quantidade">
+
+            <label for="coifa">Coifa de parede:</label>
+            <input type="number" name="coifa" id="coifa" placeholder="quantidade">
+
+            <label for="pagamento">Forma de pagamento:</label>
+            <select name="pagamento">
+                <option value="pag1">Boleto</option>
+                <option value="pag2" selected>Crédito/Débito</option>
+                <option value="pag3">PiX</option>
+            </select>
+
+            <br>
+            <br>
+            <br>
+
+            <input type="button" value="Finalizar venda" id="btn-vendas">
+
         </form>
     </div>
 
