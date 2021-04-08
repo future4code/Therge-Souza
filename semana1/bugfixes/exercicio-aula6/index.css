@@ -67,8 +67,13 @@ div img {
   **/
 
 #container-de-descricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #2274a5;
     color: white;
+    text-align: center;
 }
 
 #container-de-descricao>ol {
