@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Vendas</title>
+</head>
+
+<body>
+    <div id="name">
+        <p>Eletro's Store</p>
+    </div>
+
+    <div id="menu">
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="vendas.html">Vendas</a>
+        <a href="historicovendas.html">Histórico de vendas</a>
+    </div>
+    <div class="main" id="vendas">
+        <h2>Vendas</h2>
+        <form action="" id="form-vendas">
+
+            <label for="vendedor">Vendedor:</label>
+            <input type="text" name="vendedor" id="vendedor" placeholder="Nome do vendedor">
+
+            <label for="hora">Horário da venda:</label>
+            <input type="text" name="hora" id="hora" placeholder="horário da venda">
+
+            <label for="lavar">Máquina de lavar:</label>
+            <input type="number" name="lavar" id="lavar" placeholder="quantidade">
+
+            <label for="microondas">Micro-ondas:</label>
+            <input type="number" name="microondas" id="microondas" placeholder="quantidade">
+
+            <label for="refrigerador">Refrigerador 03 portas:</label>
+            <input type="number" name="refrigerador" id="refrigerador" placeholder="quantidade">
+
+            <label for="fogao">Fogão 5 bocas:</label>
+            <input type="number" name="fogao" id="fogao" placeholder="quantidade">
+
+            <label for="coifa">Coifa de parede:</label>
+            <input type="number" name="coifa" id="coifa" placeholder="quantidade">
+
+            <label for="pagamento">Forma de pagamento:</label>
+            <select name="pagamento">
+                <option value="pag1">Boleto</option>
+                <option value="pag2" selected>Crédito/Débito</option>
+                <option value="pag3">PiX</option>
+            </select>
+
+            <br>
+            <br>
+            <br>
+
+            <input type="button" value="Finalizar venda" id="btn-vendas">
+
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>Siga-nos nas redes sociais!</p>
+
+        <div>
+            <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+            <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+            <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+        </div>
+    </div>
+
+</body>
+
+</html>

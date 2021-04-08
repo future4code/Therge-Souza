@@ -82,3 +82,18 @@ button:hover {
     color: white;
     border: 0px;
 }
+
+.quantidade {
+    display: inline-flex;
+    padding: 10px;
+}
+
+#form-historico {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}

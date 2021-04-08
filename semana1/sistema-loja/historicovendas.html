@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Histórico de Vendas</title>
+</head>
+
+<body>
+    <div id="name">
+        <p>Eletro's Store</p>
+    </div>
+
+    <div id="menu">
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+        <a href="vendas.html">Vendas</a>
+        <a href="historicovendas.html">Histórico de vendas</a>
+    </div>
+    <div id="main">
+        <h2 id="h2-historico">Histórico de Vendas</h2>
+        <div id="form-historico">
+            <form action="">
+                <label for="hora">Horário: </label>
+                <input type="time" name="hora" id="hora">
+
+                <label for="funcionario">Funcionário: </label>
+                <input type="text" name="funcionario" id="funcionario">
+
+                <label for="valor">Valor total: </label>
+                <input type="number" name="valor" id="valor">
+
+                <label for="pagamento">Forma de pagamento:</label>
+                <select name="pagamento">
+                    <option value="pag1">Boleto</option>
+                    <option value="pag2" selected>Crédito/Débito</option>
+                    <option value="pag3">PiX</option>
+                </select>
+                <label for="data">Pesquisar por data: </label>
+                <input type="search" name="data" id="data">
+            </form>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Siga-nos nas redes sociais!</p>
+
+        <div>
+            <img src="https://image.flaticon.com/icons/png/512/25/25305.png" />
+            <img src="https://image.flaticon.com/icons/png/512/25/25425.png" />
+            <img src="https://image.flaticon.com/icons/png/512/8/8800.png" />
+        </div>
+    </div>
+</body>
+
+</html>
