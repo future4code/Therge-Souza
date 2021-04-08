@@ -115,6 +115,10 @@ div:last-child {
 table {
     width: 60%;
     margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
 }
 
 td button {
@@ -145,5 +149,8 @@ td button {
 }
 
 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
 }
