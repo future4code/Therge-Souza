@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <!-- - Um menu na parte superior da tela com links para as demais áreas do portfólio. -->
+    <div class="centralizar" id="menu">
+
+        <nav>
+            <h2>Therge Fonsêca de Souza</h2>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#instituicao">Experiência</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#redes-sociais">Redes Sociais</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Foto-->
+    <div id="foto" class="centralizar padding">
+        <img src="img/perfil.jpg" alt="Foto">
+    </div>
+
+
+    <!-- Texto descrevendo quem é você-->
+    <div id="sobre" class="centralizar padding">
+        <h3>Sobre mim</h3>
+        <p>Me chamo Therge Fonsêca de Souza, natural de Brasilia-DF, onde resido até hoje. Formado em Técnologos de Redes de Computadores na UNIP. Possuo cursos de Segurança da Informação e estou atualmente aprendendo a desenvolver full stack pela empresa
+            Labenu. Possuo inglês avançado e tive uma expêriencia de 10 meses trabalhando em Dublin, na Irlanda com a língua inglesa. </p>
+    </div>
+
+    <!-- instituições de ensino e empregadores prévios - Incluir a Labenu -->
+    <div id="instituicao" class="centralizar padding">
+        <h3>Experiências prévias</h3>
+        <p><strong>Empresa: </strong> Labenu</p>
+        <p><strong>Data: </strong>04/21 - 12/21</p>
+        <p><strong>Descrição do cargo: </strong>Com o curso de desenvolvimento web full stack da Labenu, aprendi a construir uma aplicação na web partindo somente de uma ideia, um site 100% funcional, do começo ao fim. Todas as competências necessárias são
+            ensinadas ao longo dessa experiência. ‍Nós lidamos tanto com a parte que o usuário vê, o frontend, quanto com o que acontece por trás, o backend, além de aprender a desenvolver e aprimorar nossas soft skills.</p>
+
+    </div>
+
+    <!-- Galeria de projetos de software que haja interação -->
+    <div id="galeria-projetos" class="centralizar padding">
+        <h3>Galeria de Projetos</h3>
+        <div id="fotos-projetos">
+            <figure>
+                <img src="img/paginacomprar.jpg" alt="">
+                <figcaption><a href=""> Projeto #1</a></figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/controle.jpg" alt="">
+                <figcaption><a href=""> Projeto #2</a></figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/add.jpg" alt="">
+                <figcaption><a href=""> Projeto #3</a></figcaption>
+            </figure>
+        </div>
+
+    </div>
+
+    <!-- Uma página para cada projeto que você colocou no item anterior. 
+        Essa página deve ter (pelo menos) uma imagem do projeto, um título, 
+        uma descrição e uma lista de tecnologias utilizadas. 
+        Por enquanto você pode utilizar os projetos do curso como exemplo, 
+        incluindo o projeto de seleção. -->
+    <div id="paginas-projetos" class="centralizar padding">
+
+    </div>
+
+
+    <!-- - Uma lista de habilidades que você possui (técnicas e comportamentais). 
+        Para cada habilidade, coloque um breve texto descrevendo um ponto forte 
+        seu que justifique o destaque. -->
+    <div id="lista-habilidade" class="centralizar padding">
+        <h3>Habilidades</h3>
+
+        <div class="tabela-habilidade">
+            <table>
+                <tr>
+                    <th colspan="2">Hard Skills</th>
+                    <th>Soft Skills</th>
+                </tr>
+                <tr>
+                    <td>Front-End</td>
+                    <td>Back-End</td>
+                    <td>Criatividade</td>
+                </tr>
+
+
+                <tr>
+                    <td>HTML</td>
+                    <td>Node</td>
+                    <td>Pensamento Crítico</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Typescript</td>
+                    <td>Gosto de trabalhar em equipe</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>MySQL</td>
+                    <td>Boa comunicação</td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>AWS</td>
+                    <td>Resolução de Problemas Complexos</td>
+                </tr>
+                <tr>
+                    <td>Jest</td>
+                    <td>FireBase</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- Uma formulário para contato. Ele deve receber nome, email e texto. 
+        Nessa etapa o formulário não precisa mandar email ou interagir com o usuário. -->
+    <div id="contato" class="centralizar padding">
+        <h3>Contato</h3>
+        <form action="" class="form-contato">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Seu nome...">
+
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" placeholder="Seu e-mail...">
+
+            <label for="texto">Texto: </label>
+            <textarea name="texto " id="texto" cols="30" rows="10" placeholder="Escreva aqui..."></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <!-- Uma lista de redes sociais e links seus para contato. 
+        Sugerimos linkedin, github, email, twitter, facebook, etc ... -->
+    <div id="redes-sociais" class="centralizar padding">
+        <footer>
+            <h3>Redes Sociais</h3>
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/thergefonseca/"><img src="img/ig.jpeg" alt="Linkedin"></a>
+
+                </li>
+                <li>
+                    <a href="https://github.com/future4code/Therge-Souza"><img src="img/github.jpeg" alt="GitHub"></a>
+                </li>
+                <li>
+                    <a href="mailto:thergefonseca@gmail.com"><img src="img/mail.jpeg" alt="Mail"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/thergefonseca/"><img src="img/WhatsApp Image 2021-04-09 at 13.46.02 (2).jpeg" alt="Instagram"></a>
+                </li>
+            </ul>
+            <br>
+            <a href="#menu"><img src="img/xyD3Y9r.png" alt="Voltar topo" placeholder="Voltar Topo">Voltar Topo</a>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+    <!--  -->
+
+
+
+
+</body>
+
+</html>
