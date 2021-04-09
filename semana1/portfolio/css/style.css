@@ -63,10 +63,13 @@ footer img:hover {
 
 td {
     text-align: center;
-    padding: 2px;
+    background: lightgrey;
 }
 
-td th {}
+th {
+    background: lightblue;
+    padding: 3px;
+}
 
 textarea {
     width: 500px;
@@ -80,6 +83,10 @@ button {
 
 a {
     text-decoration: none;
+}
+
+p {
+    font-size: 18px;
 }
 
 #foto {
