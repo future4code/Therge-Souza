@@ -1,0 +1,220 @@
+/* Leve 1 */
+
+#pond {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* Leve 2 */
+
+#pond {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Leve 3 */
+
+#pond {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Leve 4 */
+
+#pond {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Leve 5 */
+
+#pond {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/* Leve 6 */
+
+#pond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Leve 7 */
+
+#pond {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+/* Leve 8 */
+
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* Leve 9 */
+
+#pond {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Leve 10 */
+
+#pond {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+
+/* Leve 11 */
+
+#pond {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/* Leve 12 */
+
+#pond {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+
+/* Leve 13 */
+
+#pond {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+
+/* Leve 14 */
+
+#pond {
+    display: flex;
+}
+
+.yellow {
+    order: 3;
+}
+
+
+/* Leve 15 */
+
+#pond {
+    display: flex;
+}
+
+.red {
+    order: -3;
+}
+
+
+/* Leve 16 */
+
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+
+.yellow {
+    align-self: flex-end;
+}
+
+
+/* Leve 17 */
+
+#pond {
+    display: flex;
+    align-items: flex-start;
+}
+
+.yellow {
+    align-self: flex-end;
+    order: 2;
+}
+
+
+/* Leve 18 */
+
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Leve 19 */
+
+#pond {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* Leve 20 */
+
+#pond {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+
+/* Leve 21 */
+
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+
+/* Leve 22 */
+
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+
+/* Leve 23 */
+
+#pond {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column-reverse;
+}
+
+
+/* Leve 24 */
+
+#pond {
+    display: flex;
+    flex-flow: column-reverse wrap-reverse;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-end;
+}
