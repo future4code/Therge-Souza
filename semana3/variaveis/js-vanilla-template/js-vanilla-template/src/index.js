@@ -55,7 +55,7 @@ console.log(irmao)
 
 //Exercicio 3
 //a
-const comidasFavoritas = ["Mexicana", "Feijoada", "Churrasco", "Acarajé", "Rabada"]
+let comidasFavoritas = ["Mexicana", "Feijoada", "Churrasco", "Acarajé", "Rabada"]
 console.log(comidasFavoritas)
 
 //b
