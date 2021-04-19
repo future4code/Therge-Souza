@@ -13,8 +13,8 @@ Se tivesse sido declarada corretamente retornaria "10, 10, 10"
 //Exercicio de escrita
 
 //Exercicio 1
-let nome
-let idade
+let nome;
+let idade;
 
 console.log(typeof nome, typeof idade);
 
@@ -35,19 +35,19 @@ console.log("Olá " + nome + ", você tem " + idade + " anos.");
 
 //Exercicio 2
 
-const cidade = prompt("Em que cidade você mora?");
+let cidade = prompt("Em que cidade você mora?");
 console.log(cidade);
 
-const idade = prompt("Quantos anos você tem?");
+let idade = prompt("Quantos anos você tem?");
 console.log(idade);
 
-const serie = prompt("Qual sua série favorita?");
+let serie = prompt("Qual sua série favorita?");
 console.log(serie);
 
-const cor = prompt("Qual a sua cor predileta?");
+let cor = prompt("Qual a sua cor predileta?");
 console.log(cor);
 
-const irmao = prompt("Você possui quantos irmãos?");
+let irmao = prompt("Você possui quantos irmãos?");
 console.log(irmao);
 
 
@@ -74,8 +74,8 @@ console.log(comidasFavoritas);
 
 //Exercicio 4
 
-const perguntas = ["Você toma café?", "Você já viajou para fora do Brasil?", "Você pratica esporte?"];
-const respostas = [false, true, true];
+let perguntas = ["Você toma café?", "Você já viajou para fora do Brasil?", "Você pratica esporte?"];
+let respostas = [false, true, true];
 
 console.log(perguntas[0], respostas[0]);
 console.log(perguntas[1], respostas[1]);
