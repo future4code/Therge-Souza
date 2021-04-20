@@ -38,8 +38,8 @@ console.log("Olá " + nome + ", você tem " + idade + " anos.");
 let cidade = prompt("Em que cidade você mora?");
 console.log(cidade);
 
-let idade = prompt("Quantos anos você tem?");
-console.log(idade);
+let anos = prompt("Quantos anos você tem?");
+console.log(anos);
 
 let serie = prompt("Qual sua série favorita?");
 console.log(serie);
@@ -56,7 +56,7 @@ console.log(irmao);
 //Exercicio 3
 //a
 let comidasFavoritas = ["Mexicana", "Feijoada", "Churrasco", "Acarajé", "Rabada"];
-console.log(comidasFavoritas);
+console.table(comidasFavoritas);
 
 //b
 console.log("Essas são minhas comidas preferidas: ");
