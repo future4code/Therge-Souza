@@ -56,7 +56,7 @@ console.log(irmao);
 //Exercicio 3
 //a
 let comidasFavoritas = ["Mexicana", "Feijoada", "Churrasco", "Acarajé", "Rabada"];
-console.table(comidasFavoritas);
+console.log(comidasFavoritas);
 
 //b
 console.log("Essas são minhas comidas preferidas: ");
