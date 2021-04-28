@@ -22,3 +22,12 @@ section {
     width: 14%;
     padding: 5px;
 }
+
+#riscado {
+    text-decoration: line-through;
+}
+
+
+/* @media screen and (max-width:375px) and (max-heigth:667px) {
+
+} */
