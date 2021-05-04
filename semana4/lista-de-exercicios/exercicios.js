@@ -69,20 +69,21 @@ function retornaExpressoesBooleanas() {
 
 function retornaNNumerosPares(n) {
    // implemente sua lógica aqui
-   let arrayPar = []
-
-   for(let i = 0; i <= n.length; i++){
-   if(n % 2 === 0){
-      arrayPar.push(n)
-   }
-}
-return arrayPar
+  let nPar = []
+  
+  for(let i = 0; i < n * 2; i++){
+     if(i% 2 === 0){
+        nPar.push(i)
+     }
+  }
+  return nPar
 }
 
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
   // implemente sua lógica aqui
+  
 }
 
 // Exercício 9
