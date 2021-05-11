@@ -1,17 +1,18 @@
 import React from "react";
-import './App.css'
+import "./logo.svg"
 import Etapa1 from "./componentes/Etapa1"
 import Etapa2 from "./componentes/Etapa2"
 import Etapa3 from "./componentes/Etapa3"
 import Final from "./componentes/Final"
 import TituloPagina from "./componentes/tituloPagina";
 
+
 class App extends React.Component { 
-  state ={
+  state = {
     etapa: 1
   }
   
-  renderizarPáginas = () => {
+  renderizarPagina = () => {
     switch(this.state.etapa){
       case 1:
         return <Etapa1/>
@@ -33,7 +34,7 @@ class App extends React.Component {
   render(){    
     return (
       <div className="content">
-        {this.renderizarPaginas()}
+        {this.renderizarPagina()}
         <br/>
         {this.state.etapa !== 4 && (
         <button onClick={this.proximaPagina}>Próxima página</button>
