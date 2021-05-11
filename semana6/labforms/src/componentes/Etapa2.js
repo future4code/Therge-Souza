@@ -9,7 +9,7 @@ class Etapa2 extends React.Component {
   render() {
     const tituloEtapa2 = "ETAPA 2 - INFORMAÇÕES DO ENSINO SUPERIOR"
     return (
-      <div>
+      <div className="content">
       <TituloPagina titulo={tituloEtapa2}/>
 
       <PerguntaEscrever pergunta="1. Qual o curso?"/>
