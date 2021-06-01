@@ -32,11 +32,12 @@ const Post = (props) => {
   };
 
   const enviarComentario = (comentario) => {
-    const listaDeComentarios = [...this.state.comentarios, comentario]
-
-    setComentarios(listaDeComentarios)
-    setComentando(false)
     setNumeroComentarios(numeroComentarios + 1)
+
+    const listaDeComentarios = [...comentarios, comentario]
+
+    setComentando(false)
+    setComentarios(listaDeComentarios)
   }
   
   const iconeCurtida = curtido ? (iconeCoracaoPreto) : (iconeCoracaoBranco)
@@ -44,7 +45,7 @@ const Post = (props) => {
   const caixaDeComentario = comentando ? (
     <SecaoComentario enviarComentario={enviarComentario}/>
   ):(
-    comentarios.map((comentario) =>{
+    comentarios.map((comentario) => {
       return (
         <CommentContainer>
           <p key={Date.now()}>{comentario}</p>
@@ -75,7 +76,7 @@ const Post = (props) => {
           valorContador={numeroComentarios}
         />
       </PostFooter>
-      {/* {caixaDeComentario} */}
+      {{caixaDeComentario}}
     </PostContainer>
   )
 }
