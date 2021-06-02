@@ -2,43 +2,18 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./styles.css";
 import styled from "styled-components";
+import Titulo from "./Components/Titulo";
+import Pessoa from "./Components/Pessoa";
 
 const PrincipalContainer = styled.div`
   margin: 0 auto;
-  /* border: 1px solid red; */
+  border: 1px solid black;
   background: lightgrey;
   width: 400px;
+  height: 600px;
   padding: 10px;
   text-align: center;
-`;
-
-const ImgContainer = styled.img`
-  width: 250px;
-  height: 300px;
-  background: white;
-`;
-
-const InfoUser = styled.p`
-  font-size: 24px;
-  color: rgb(153, 50, 204);
-`;
-
-const AstroMatch = styled.div`
-  display: flex;
-  text-align: center;
-  justify-content: center;
-`;
-
-const AstroColor = styled.h1`
-  font-size: 36px;
-  font-weight: bolder;
-  color: rgb(0, 255, 255);
-`;
-
-const MatchColor = styled.h1`
-  font-size: 36px;
-  font-weight: bolder;
-  color: rgb(153, 50, 204);
+  border-radius: 10px;
 `;
 
 export default function App(props) {
@@ -64,17 +39,13 @@ export default function App(props) {
 
   return (
     <PrincipalContainer>
-      <AstroMatch>
-        <AstroColor>Astro</AstroColor>
-        <MatchColor>Match</MatchColor>
-      </AstroMatch>
-
-      <ImgContainer src={users.photo} />
-
-      <InfoUser>{users.name}</InfoUser>
-      <InfoUser>{users.age}</InfoUser>
-
-      <p>{users.bio}</p>
+      <Titulo />
+      <Pessoa
+        imagem={users.photo}
+        nome={users.name}
+        idade={users.age}
+        bio={users.bio}
+      />
     </PrincipalContainer>
   );
 }
