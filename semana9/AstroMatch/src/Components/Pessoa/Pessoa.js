@@ -28,10 +28,8 @@ const Pessoa = (props) => {
   return (
     <div>
       <ImgContainer src={props.imagem} />
-
       <InfoUser>{props.nome}</InfoUser>
       <InfoUser>{props.idade}</InfoUser>
-
       <p>{props.bio}</p>
     </div>
   );
